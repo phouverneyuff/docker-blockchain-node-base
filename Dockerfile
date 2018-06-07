@@ -58,4 +58,6 @@ RUN apt-get update  \
         libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git wget pwgen curl libdb4.8-dev bsdmainutils libdb4.8++-dev \
         libminiupnpc-dev libgmp3-dev ufw fail2ban pkg-config libevent-dev unzip libdb5.3++
 
+RUN apt-get install wget curl
+
 USER coin
