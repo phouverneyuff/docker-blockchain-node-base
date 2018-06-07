@@ -19,6 +19,8 @@ RUN useradd -r coin \
 
 ENV GOSU_VERSION=1.10
 
+ENV HOME=/home/coin
+
 RUN set -ex; \
 	\
 	fetchDeps=' \
